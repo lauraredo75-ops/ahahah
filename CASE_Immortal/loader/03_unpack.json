@@ -1,0 +1,25 @@
+{
+  "agent": "unpack",
+  "status": "ok",
+  "packer": "VMProtect",
+  "method": "dynamic",
+  "notable": [
+    "unlicense (Themida/WinLicense) echoue -> confirme non-Themida",
+    "pe-sieve dump memoire reussi (IMP_RECREATED), image 23.4 Mo",
+    "dump revele 64693 strings dechiffrees (vs 42658 sur disque)"
+  ],
+  "recovered": { "kind": "unpacked_binary", "paths": ["artifacts\\unpack\\pesieve\\process_7928\\7ff78a9f0000.sample.exe"] },
+  "safety": { "executed_on_host": true, "network_connections_observed": 0, "process_tree_killed": true },
+  "identity": "Loader de triche Valorant (marque Immortal)",
+  "c2": ["immortal-authentication.com"],
+  "api_endpoints": ["/api/v4/login","/api/v4/challenge","/api/v4/heartbeat","/api/v4/pak-key","/api/v4/binary-fetch","/api/v4/griffin-grant"],
+  "injection": "SetWinEventHook sur thread Valorant + memoire partagee (seal_into_shmem)",
+  "embedded_keys": ["RSA PRIVATE KEY (~3186 chars) -> embedded_private_key.pem"],
+  "anti_analysis": ["watchdog KILLING dbg/hwbp/retools/frida/inject/wdbg", "patch_auth/patch_cookie detection", "DeleteFile anti-forensique", "VMProtect virtualisation"],
+  "limitations": [
+    "Fonctions virtualisees restent du bytecode VM apres dump",
+    "Payload de triche (griffin DLL) telecharge depuis le C2, absent du binaire"
+  ],
+  "tools_used": [{"name":"unlicense"},{"name":"pe-sieve"},{"name":"die"},{"name":"strings"}],
+  "route_next": ["native"]
+}
