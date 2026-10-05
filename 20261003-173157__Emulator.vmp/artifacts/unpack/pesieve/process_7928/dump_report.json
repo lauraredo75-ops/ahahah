@@ -1,0 +1,54 @@
+ {
+  "pid" : 7928,
+  "output_dir" : "process_7928",
+  "dumped" : 
+  {
+   "total" : 4,
+   "dumped" : 4
+  },
+  "dumps" : [
+   {
+    "module" : "7ff78a9f0000",
+    "module_size" : "175d000",
+    "dump_file" : "7ff78a9f0000.sample.exe",
+    "imports_file" : "7ff78a9f0000.sample.exe.imports.txt",
+    "imp_rec_result" : "IMP_RECREATED_FILTER0",
+    "dump_mode" : "REALIGNED",
+    "is_shellcode" : 0,
+    "status" : 1
+   },
+   {
+    "module" : "7ffafda70000",
+    "module_size" : "1f8000",
+    "dump_file" : "7ffafda70000.ntdll.dll",
+    "tags_file" : "7ffafda70000.ntdll.dll.tag",
+    "imports_file" : "7ffafda70000.ntdll.dll.imports.txt",
+    "imp_rec_result" : "IMP_RECREATED_FILTER0",
+    "dump_mode" : "REALIGNED",
+    "is_shellcode" : 0,
+    "status" : 1
+   },
+   {
+    "module" : "7ffafb4a0000",
+    "module_size" : "2f6000",
+    "dump_file" : "7ffafb4a0000.KERNELBASE.dll",
+    "tags_file" : "7ffafb4a0000.KERNELBASE.dll.tag",
+    "imports_file" : "7ffafb4a0000.KERNELBASE.dll.imports.txt",
+    "imp_rec_result" : "IMP_RECREATED_FILTER0",
+    "dump_mode" : "REALIGNED",
+    "is_shellcode" : 0,
+    "status" : 1
+   },
+   {
+    "module" : "7ffafcf40000",
+    "module_size" : "1a1000",
+    "dump_file" : "7ffafcf40000.user32.dll",
+    "tags_file" : "7ffafcf40000.user32.dll.tag",
+    "imports_file" : "7ffafcf40000.user32.dll.imports.txt",
+    "imp_rec_result" : "IMP_RECREATED_FILTER0",
+    "dump_mode" : "REALIGNED",
+    "is_shellcode" : 0,
+    "status" : 1
+   }
+  ]
+ }
