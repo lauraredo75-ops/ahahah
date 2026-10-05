@@ -1,0 +1,98 @@
+---
+IAT at: 8d478, size: 68, thunks: d, is_terminated: 0, in_main: 0
+---
+8d478,7ffadf5e3840,msvcp140._Cnd_destroy_in_situ #1358
+8d480,7ffadf5e38f0,msvcp140.__crtIsPackagedApp #1506
+8d488,7ffadf5e73d0,msvcp140.??4_Winit@std@@QEAAAEAV01@AEBV01@@Z #202
+8d490,7ffadf5eb9d0,msvcp140.?seekoff@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z #1189
+8d498,7ffadf5eb9d0,msvcp140.?seekoff@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z #1189
+8d4a0,7ffadf5ec6b0,msvcp140.?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z #1351
+8d4a8,7ffadf5ec4d0,msvcp140.?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z #1348
+8d4b0,7ffadf5ec0f0,msvcp140.?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ #1308
+8d4b8,7ffadf5eb670,msvcp140.?overflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z #1081
+8d4c0,7ffadf5e38f0,msvcp140.__crtIsPackagedApp #1506
+8d4c8,7ffadf5eb670,msvcp140.?overflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z #1081
+8d4d0,7ffadf5e3840,msvcp140._Cnd_destroy_in_situ #1358
+8d4d8,7ffadf5e3840,msvcp140._Cnd_destroy_in_situ #1358
+---
+IAT at: 8d560, size: 10, thunks: 2, is_terminated: 0, in_main: 0
+---
+8d560,7ffadf5e7f50,msvcp140.?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ #415
+8d568,7ffadf5e91f0,msvcp140.?_Incref@facet@locale@std@@UEAAXXZ #499
+---
+IAT at: 8d5d8, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+8d5d8,7ffadf674330,msvcp140.?clog@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A #688
+---
+IAT at: 8d5f0, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+8d5f0,7ffadf6743b0,msvcp140.?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A #693
+---
+IAT at: 8d618, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+8d618,7ffadf674608,msvcp140.?_Id_cnt@id@locale@std@@0HA #495
+---
+IAT at: 8d628, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+8d628,7ffadf674020,msvcp140.?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A #675
+---
+IAT at: 8d648, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+8d648,7ffadf674130,msvcp140.?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A #970
+---
+IAT at: 8d668, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+8d668,7ffadf674620,msvcp140.?id@?$ctype@D@std@@2V0locale@2@A #976
+---
+IAT at: 8d680, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+8d680,7ffadf6750e8,msvcp140.?id@?$collate@D@std@@2V0locale@2@A #973
+---
+IAT at: 8d868, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+8d868,7ffae003f020,vcruntime140.memcpy #61
+---
+IAT at: bc9c8, size: 18, thunks: 2, is_terminated: 1, in_main: 0
+---
+bc9c8,7ffacfe11b90,vps_4872.VMProtectIsProtected #19
+bc9d0,7ffacfe11ba0,vps_4872.VMProtectFreeString #12
+---
+IAT at: bcbe8, size: 8, thunks: 1, is_terminated: 0, in_main: 0
+---
+bcbe8,7ffacfe11b70,vps_4872.VMProtectIsDebuggerPresent #18
+---
+IAT at: 993000, size: 180, thunks: 18, is_terminated: 1, in_main: 1
+---
+993000,7ffa857323e7,libcrypto-3-x64.CRYPTO_memcmp #980
+993010,7ffafb3334a0,bcrypt.BCryptSetProperty #54
+993020,7ffafb259de0,crypt32.CertGetNameStringA #1094
+993030,7ffafca923c0,kernel32.FormatMessageA #432
+993040,7ffafcf54d60,user32.GetWindowRect #2003
+993050,7ffafcb91fa0,advapi32.OpenServiceA #1544
+993060,7ffafbbcb580,shell32.SHGetFolderPathW #505
+993070,7ffadf5eae60,msvcp140.?good@ios_base@std@@QEBA_NXZ #966
+993080,7ffade957af0,wininet.InternetConnectA #273
+993090,7ffaf8393ce0,winhttp.WinHttpQueryHeaders #46
+9930a0,7ffafaba2e30,ncrypt.NCryptFreeObject #76
+9930b0,7ffadf5a4350,vcruntime140_1.__CxxFrameHandler4 #1
+9930c0,7ffae00252d0,vcruntime140.__std_exception_destroy #35
+9930d0,7ffafb7e3440,ucrtbase._errno #231
+9930e0,7ffafb7f8540,ucrtbase._wcsicmp #1906
+9930f0,7ffafb7eb0c0,ucrtbase._fseeki64 #294
+993100,7ffafb7df020,ucrtbase.free #2212
+993110,7ffafb7f0a60,ucrtbase.rand #2344
+993120,7ffafb878810,ucrtbase.strftime #2392
+993130,7ffafb862750,ucrtbase._dsign #219
+993140,7ffafb7d8bc0,ucrtbase.strtod #2404
+993150,7ffafb7eea00,ucrtbase._lock_file #505
+993160,7ffafb7e37a0,ucrtbase.___lc_codepage_func #51
+993170,7ffafdaa2be0,ntdll.RtlLookupFunctionEntry #1269
+---
+IAT at: 993190, size: e70, thunks: 6, is_terminated: 1, in_main: 0
+---
+993190,7ffafca8f3f0,kernel32.GetModuleHandleA #639
+993198,7ffafca90830,kernel32.LoadLibraryA #971
+9931a0,7ffafca8b200,kernel32.GetProcAddress #697
+9931a8,7ffafda9a9a0,kernel32.HeapAlloc #852
+9931b0,7ffafca858b0,kernel32.HeapFree #856
+9931b8,7ffafca8e3e0,kernel32.FatalExit #369
