@@ -1,0 +1,12 @@
+# Résultats d'analyse (horodatés, volumineux) — ne pas versionner
+out/
+
+# Logs
+*.log
+
+# Divers
+.DS_Store
+Thumbs.db
+
+# La toolchain est installée HORS dépôt (D:\re-tools) et n'est jamais versionnée.
+# (Re)générable avec : powershell -ExecutionPolicy Bypass -File tools\install.ps1
