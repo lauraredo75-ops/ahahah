@@ -1,5 +1,0 @@
-cmake_minimum_required(VERSION 3.15)
-project(griffin_reimpl CXX)
-set(CMAKE_CXX_STANDARD 20)
-file(GLOB M modules/*.cpp)
-add_library(griffin_reimpl SHARED dllmain.cpp ${M})
